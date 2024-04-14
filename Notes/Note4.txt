@@ -1,0 +1,7 @@
+We have seen with the taco project, how to make a server side api request.
+
+Now we will see how to make a server-side API request.
+
+SERVER SIDE API request
+Making request from your server using Node and Axios.
+We want our server to make a request to someone else's server and get a response.

@@ -1,0 +1,44 @@
+You can find more on APIs in WEB-DEV/Node/Express-Node folder.
+
+
+
+What is JSON ?
+JavaScript Object Notation - Because the data looks like javascript objects
+
+But there is a little difference between JSON and javascript object
+
+JSON formate is like : 
+
+coord": {
+        "lon": 72.8479,
+        "lat": 19.0144
+    },
+
+JavaScript is like :
+
+var world ={
+    water : "blue",
+    land : "brown",
+    countries : 195
+}
+
+You can use jsonviewer.stack.hu.
+
+The resaon we use JSON is because it is human readable, also can be shrinked in size.
+We can colapse the javascript object into a string in the JSON format and once we receive that JSON string, we can 
+build it back into the original javascript object.
+
+JSON is not the only format - that we can use to receive data from an apis, we can also use xml, html.
+JSON is the most favourable as it easy to turn into javascript format.
+
+
+While sending data on the internet you would want to it to be in the json format
+You would need to perform serialization.
+const jsonData = JSON.stringify(data); (data=js object);
+converts all js objects to string.
+
+Now when you want the data again in the js object format.
+We use  const data = JSON.parse(jsonData);
+data.name etc, to access anything in the jsobject
+
+

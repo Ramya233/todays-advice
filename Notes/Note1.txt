@@ -1,0 +1,40 @@
+API 
+
+ You want to be able to talk to the servers, of open weather to get information
+ but you don't know how their database works etc.
+
+ so open weather has an API through which they can interact with their database. 
+ There are these services you can access, via their API
+
+ You are doing a get request via the api to get the data in response on 
+ your website.
+
+ Post request is used to send over the data to the mailchip servers.
+ In response you will get a status code of 200 if successful and 404 for error.
+
+You can imagine an API doc like a menu, specifying, what you want? 
+And you can make the request using http.
+Mybe you need to make a post req, or a get req.
+
+ --------------------------------------------------------------------
+
+ There are different architectural styles to build an API.
+  RESTAPI, SOAP, GRAPHQL
+
+  RESTAPI - is the most popular, most commanly used.- Are apis that 
+  follow a particular set of rules.
+
+  1) The first rule is that you use an HTTP Protocol to interact with the API.
+
+
+
+
+
+
+
+
+
+When you look at the doc for an API, it almost looks like a menu.
+
+  ISS - International space station.
+  There is an api called Where is the ISS at?, that gives you the location of where the ISS is.

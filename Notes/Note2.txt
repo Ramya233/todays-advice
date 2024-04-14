@@ -1,0 +1,24 @@
+Till now we have built a front-end and back-end for our websites.
+We make a get request for our servers to open a new webpage, 
+In response the server will respond with some data.
+
+The above if you see carefully, is like hitting up some private API.
+
+What we are interested in is talking to someone eles's server.
+But this time it's done via a public API.
+
+
+Structuring API Request
+Formatting API Request 
+1)EndPoints - BaseURL/EndPoint (eg:https://www.baseurl.com/home)
+eg : /random , /filter are some endpoints in the boredapi 
+
+2)Path Parameters - endpoints are going to be fixed, while path-parameters can change.
+It is basically variable, it can be id/user name/etc.
+Path parameters can be viewed as for identifing resources.
+eg: You want to always display a specific resources with a key=80980 or id=77656
+for this you can use the path parameters
+eg:https://bored-api.appbrewery.com/activity/5914292
+
+3)Query Parameters - baseurl/endpoints?query=value (eg:name=kappa)
+You can also have multiple query Parameters. - (baseurl/endpoints?query=value&query=value)
